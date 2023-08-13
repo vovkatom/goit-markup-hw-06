@@ -1,3 +1,12 @@
+@media screen and (max-width: 427px) {
+  .modal-page {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
 @media screen and (min-width: 428px) {
   .container {
     max-width: 428px;
@@ -5,7 +14,9 @@
 
   .modal-page {
     width: 392px;
-    height: 584px;
+    /* height: 584px; */
+    margin: 96px auto;
+    padding: 72px 24px 16px 24px;
   }
 
   .mob-menu-addres-link-tel {
@@ -50,7 +61,10 @@
   }
 
   .modal-page {
-    padding: 72px 24px 16px 24px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
   }
 
   .menu-open-btn {
@@ -71,7 +85,7 @@
   }
 
   .hero {
-    max-width: 1440px;
+    max-width: 768px;
     margin: 0 auto;
     padding-bottom: 112px;
     background-color: var(--dark, #2e2f42);
@@ -101,8 +115,10 @@
   .hero-title {
     max-width: 496px;
     font-size: 56px;
-    padding-top: 112px;
-    padding-bottom: 36px;
+  }
+
+  .hero-button {
+    margin-top: 36px;
   }
 
   .features-title {
@@ -137,7 +153,7 @@
   }
 
   .team {
-    padding: 120px 0;
+    padding: 96px 0;
   }
 
   .footer-container {
@@ -190,7 +206,7 @@
     padding: 12px 24px;
   }
 
-  .projects-list  {
+  .projects-list {
     gap: 72px 24px;
     flex-direction: row;
   }
@@ -224,11 +240,12 @@
   .modal-page {
     width: 408px;
     margin: 80px auto;
-    padding: 72px 24px 24px 24px;
-  }
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
 
-  .header-nav {
-    margin-right: 120px;
+    padding: 72px 24px 24px 24px;
   }
 
   .header-logo-web {
@@ -237,6 +254,10 @@
 
   .header-addres {
     gap: 40px;
+  }
+
+  .hero-button {
+    margin-top: 48px;
   }
 
   .hero {
@@ -267,13 +288,16 @@
     }
   }
 
-  .hero-title {
-    padding-top: 188px;
-    padding-bottom: 36px;
+  .hero-container {
+    margin-top: 188px;
   }
 
   .hero {
     padding-bottom: 188px;
+  }
+
+  .team {
+    padding: 120px 0;
   }
 
   .features {
@@ -339,8 +363,6 @@
     width: calc((100% - 24px * 5) / 6);
   }
 
-  
-
   .header-list-address {
     flex-direction: row;
     gap: 40px;
@@ -392,11 +414,15 @@
     margin-bottom: 72px;
   }
 
-  .projects-list  {
+  .projects-list {
     gap: 48px 24px;
   }
 
   .projects-item {
     width: calc((100% - 48px) / 3);
+  }
+
+  .customers {
+    padding: 120px 0;
   }
 }
