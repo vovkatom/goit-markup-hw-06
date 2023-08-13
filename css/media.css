@@ -61,6 +61,7 @@
   }
 
   .modal-page {
+    width: 408px;
     position: absolute;
     top: 0;
     left: 50%;
@@ -238,7 +239,7 @@
   }
 
   .modal-page {
-    width: 408px;
+    
     margin: 80px auto;
     position: absolute;
     top: 0;
