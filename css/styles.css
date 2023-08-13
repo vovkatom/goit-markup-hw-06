@@ -294,7 +294,7 @@ img,
 }
 
 .hero {
-  max-width: 428px;
+  max-width: 1440px;
   margin: 0 auto;
   padding-bottom: 112px;
   background-color: var(--dark, #2e2f42);
